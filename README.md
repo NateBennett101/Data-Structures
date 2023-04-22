@@ -1,1 +1,13 @@
 # Data-Structures
+
+Developing a course planner that can read course information from files, store it in the appropriate data structures, and give users menu-based access to the information was the aim of the project for this course. The program may display a list of courses in alphabetical order, load course data from a file, and display information about a specific course, including any prerequisites.
+
+I believe I started by reviewing the problem specifications to identify what data structures were required to hold the course information. The course name, number, and prerequisites should be saved in the program. Because there could be multiple prerequisites for a course, I opted to use a vector to hold the requirements. Following that, I built functions to display an alphabetical course list, load data from a file into a data structure, and display details about a specific course. I also included a menu-based user interface so that people could interact with the program.
+
+In order to create software that is successful and efficient, understanding data structures can be essential. The performance and effectiveness of a program can be considerably impacted by selecting the appropriate data structure because different data structures have distinct features. In this project, storing the course prerequisites as a vector made it simple to retrieve and manipulate the prerequisites.
+
+I might have had problems trying to present data for a certain course while working on the project. I browsed through the vector of courses to find the course that fit the user's input, and after I found it, I initially found it difficult to get out of the loop. This was avoided by utilizing a Boolean variable to track whether or not the course was located, and exiting the loop in that case.
+
+I think that this project might have broadened my understanding of software design by highlighting the importance of data structures and user interface design. As well as learning how to use data structures to store information in an efficient and orderly manner, I also got expertise on how to develop user interfaces that are easy to comprehend and use.
+
+This project has taught me the value of employing good programming principles like modularization, code commenting, and error handling in order to write programs that are maintainable, readable, and adaptive. In order to modify and sort data structures and make the code more understandable and effective, I also learned how to use STL algorithms like sort. Overall, I think that this project could have improved my programming skills and increased my understanding of data structures and how they are used in software development.
